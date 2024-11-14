@@ -1,1 +1,38 @@
+Begin the Security Design Review
+Explore the Application:
+Navigate through the "badstore.net" application and familiarize yourself with its features and links:
+Search Functionality
 
+Home
+What's New
+Sign Our Guestbook
+View Previous Orders
+
+About Us
+My Account
+
+Login / Register
+
+Security Testing:
+Optionally, tools like Burp Suite or OWASP ZAP can be used to test for common vulnerabilities such as SQL injection, XSS, or insecure session handling.
+I also encourage you to use ChatGPT or similar AI tools to help you find vulnerabilities in the code as I do not expect you to be an expert in web application development.
+ 
+
+Additional Tips for Students
+Document Everything:
+As you find vulnerabilities or issues, document them thoroughly in your SDR report. Include screenshots, descriptions of the issue, and any proposed fixes.
+ 
+
+Study the Codebase:
+Review the application's architecture and key components. Understand how different parts of the application interact and where security-critical components (e.g., authentication, search, data storage, etc.) are located.
+Conduct the SDR: Download the template Download Download the template
+
+Study: Analyze the documentation and code to identify the overall design and functionality.
+Inquire: Ask questions about the code, either within the group or by researching online, to clarify how certain security aspects are implemented.
+Identify: Focus on the most security-critical areas, such as input validation, access controls, data storage, and API usage.
+Collaborate: Discuss potential security issues with peers or instructors and propose mitigations.
+Write: Document the findings, including specific code examples where security issues were identified, and suggest code improvements.
+Follow Up: Reflect on how the proposed changes would improve the security of the application.
+Submit Report:
+
+Provide a detailed report with code snippets, analysis, and recommendations. Be prepared to discuss your findings with the class such as discussing how security was evaluated and what improvements could be made.
